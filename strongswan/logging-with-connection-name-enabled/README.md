@@ -19,7 +19,9 @@ syslog {
 ```
 
 ## Modified Logs
+```
 Feb  5 11:38:14 broccoliserver 'vpnlogs': 11[NET] <telcovpn|4> sending packet: from 100.100.100.100[500] to 200.200.200.200[500] (92 bytes)
 ..
 ..
 ..
+```
