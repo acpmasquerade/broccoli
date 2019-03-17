@@ -5,9 +5,9 @@
  - git commit to save the changes
  
 # Sparse Checkout (lets say, the submodule name is __mysub__)
- - open ```.git/modules/__submodule_name__/config``` and under core section add this line
+ - open `.git/modules/<submodule_name>/config` and under core section add this line
    - ```sparsecheckout = 1```
- - open ```.git/modules/__submodule_name__/info/sparse-checkout``` and one per line, the files / folders that you want to checkout
+ - open `.git/modules/<submodule_name>/info/sparse-checkout` and one per line, the files / folders that you want to checkout
  
 # Updating submodules
  ```git submodule update --remote```
